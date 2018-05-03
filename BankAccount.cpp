@@ -63,5 +63,21 @@ namespace Proj1_classes
                 return Balance;
             }
         }
+        
+        public virtual void Print()
+
+        {
+
+            Console.WriteLine("\nAccount: ");
+
+            Console.WriteLine("ID:      " + ID);
+
+            Console.WriteLine("Name:    " + Name);
+
+            Console.WriteLine("Balance: " + Balance);
+
+            Console.WriteLine("Created: " + CreationDate.ToShortDateString());
+
+        }
     }
 }        
