@@ -35,5 +35,33 @@ namespace Proj1_classes
             CreationDate = dt;
             count_acc++;
         }
+        
+        public string AccessID
+        {
+            get
+            {
+                return ID;
+            }
+        }
+
+        public string AccessName
+        {
+            get
+            {
+                return Name;
+            }
+            protected set
+            {
+                Name = value;
+            }
+        }
+
+        public double AccessBalance
+        {
+            get
+            {
+                return Balance;
+            }
+        }
     }
 }        
