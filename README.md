@@ -1,2 +1,2 @@
 # BankAccount
-Bank account project being realised on C#.
+Bank account project.
